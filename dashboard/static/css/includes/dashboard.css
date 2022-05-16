@@ -1,0 +1,288 @@
+.dashboard-template-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/static/images/background-homepage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard-title-header {
+    width: 50%;
+    float: left;
+    font-size: 2.5rem;
+    font-weight: black;
+    color: white;
+    margin-top: 17%;
+    margin-left: 5%;
+}
+
+.dashboard-sub-title {
+    width: 50%;
+    float: left;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: white;
+}
+
+.dashboard-setup-service-profile {
+    width: 50%;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.dashboard-setup-service-profile a {
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #507C59;
+}
+
+/* Dashboard Template 2 */
+
+.dashboard-template-2 {
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+}
+
+.dashboard-work-offers {
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.dashboard-work-offers h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.offers {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.offers li {
+    list-style: none;
+    margin: 0 10px;
+    width: 20%;
+
+}
+
+.offers li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.offers li a img {
+    width: 250px;
+    height: 300px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+.offers li a p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.offers li a span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.dashboard-services {
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.dashboard-services h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.services {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.services li {
+    list-style: none;
+    margin: 0 10px;
+    width: 20%;
+}
+
+.services li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services li a img {
+    width: 250px;
+    height: 300px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+.services li a p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.services li a span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Dashboard Tempalte 3 */
+
+.dashboard-template-3 {
+    width: 100%;
+    height: 60vh;
+    background-color: #507C59;
+}
+
+.dashboard-template-3 h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-categories {
+    width: 70%;
+    margin: 2% auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categories {
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+}
+
+.categories a img {
+    margin-bottom: 20px;
+}
+
+/* Dashboard Template 4 */
+
+.dashboard-template-4 {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+
+.dashboard-template-4 h1 {
+    font-size: 2.5rem;
+    width: 20%;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.dashboard-template-4 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailing-section {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.mailing-section label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+.mailing-section input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: "Raleway";
+}
+
+.mailing-section input:focus {
+    outline: none;
+}
+
+.mailing-section input[type="submit"] {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: "Raleway";
+    background-color: #507C59;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+}
