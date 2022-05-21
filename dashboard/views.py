@@ -27,3 +27,9 @@ def acquireservice2(request):
 
 def errorpage(request):
     return render(request, 'includes/errorpage.html') 
+
+def contactus(request):
+    return render(request, 'includes/contactus.html') 
+
+def aboutus(request):
+    return render(request, 'includes/aboutus.html') 
